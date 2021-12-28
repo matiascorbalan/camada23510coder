@@ -100,6 +100,18 @@ body{
             p{
                 text-align: left;
             }
+            ul{
+                list-style: none;
+                margin-left: 1rem;
+            }
+            span{
+                float: right;
+                text-align: center;
+            }
+            .accidente span{
+                width: 500px;
+                max-width: 100%;
+            } 
         }
         .servicios div{
             width: 90%;

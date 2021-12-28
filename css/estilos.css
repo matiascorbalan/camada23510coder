@@ -88,6 +88,18 @@ body main .empresa div {
 body main .empresa div p {
   text-align: left;
 }
+body main .empresa div ul {
+  list-style: none;
+  margin-left: 1rem;
+}
+body main .empresa div span {
+  float: right;
+  text-align: center;
+}
+body main .empresa div .accidente span {
+  width: 500px;
+  max-width: 100%;
+}
 body main .servicios div {
   width: 90%;
   margin: auto;
