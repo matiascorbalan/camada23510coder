@@ -106,6 +106,9 @@ body main .servicios div {
   width: 90%;
   margin: auto;
 }
+body main .servicios div .fas {
+  font-size: 1em;
+}
 body main .servicios div .indicador {
   display: inline-block;
 }
