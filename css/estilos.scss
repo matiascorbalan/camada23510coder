@@ -8,7 +8,7 @@ $color3: #ffff56;
 $color4: #ffff81;
 $color5: #333233;
 
-$letragrande: 150px;
+$letragrande: 200px;
 $letramediana: 25px;
 $letrachica: 18px;
 
@@ -32,11 +32,10 @@ body{
         background-size: cover;
         background-position-y: 30%;
         background-position-x: center;
-        #logo a{
-            width: 100%;
+        #logo img{
             margin-left: 20px;
             color: $color1;
-            font-size: $letragrande;
+            height: $letragrande;
             text-decoration: none;
         }
         .navbar-toggler-icon{
@@ -104,14 +103,17 @@ body{
                 list-style: none;
                 margin-left: 1rem;
             }
-            span{
+            img{
                 float: right;
-                text-align: center;
-            }
-            .accidente span{
-                width: 500px;
+                width: 400px;
                 max-width: 100%;
-            } 
+            }
+        }
+        .far{
+            font-size: 3em; 
+        }
+        .fas{
+            font-size: 3em; 
         }
         .servicios div{
             width: 90%;
