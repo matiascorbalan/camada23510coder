@@ -22,7 +22,7 @@ body header {
 body header #logo img {
   margin-left: 20px;
   color: #ffff00;
-  height: 200px;
+  max-height: 150px;
   text-decoration: none;
 }
 body header .navbar-toggler-icon {
