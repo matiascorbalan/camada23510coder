@@ -56,9 +56,9 @@ body header #opciones ul li a {
 body main {
   background: linear-gradient(180deg, #333233 0%, #090909 100%);
 }
-body main .carousel-inner img {
-  width: 100%;
-  height: 100%;
+body main .carousel, body main .carousel-inner img {
+  text-align: center;
+  max-height: 500px;
 }
 body main h2 {
   color: #ffff00;
@@ -78,20 +78,20 @@ body main .container-fluid div {
 body main .container-fluid div img {
   width: 100%;
 }
-body main .empresa div {
+body main .empresa div, body main .contacto div {
   width: 90%;
   margin: auto;
   text-align: left;
   margin-bottom: 2rem;
 }
-body main .empresa div p {
+body main .empresa div p, body main .contacto div p {
   text-align: left;
 }
-body main .empresa div ul {
+body main .empresa div ul, body main .contacto div ul {
   list-style: none;
   margin-left: 1rem;
 }
-body main .empresa div img {
+body main .empresa div img, body main .contacto div img {
   float: right;
   width: 400px;
   max-width: 100%;
@@ -117,6 +117,9 @@ body main .servicios div ul {
 }
 body main .parrafo {
   text-align: center;
+}
+body main .contacto {
+  width: 50%;
 }
 body .fab {
   font-size: 3em;
