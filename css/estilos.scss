@@ -4,7 +4,7 @@
 //Inicio de variables
 $color1: #ffff00;
 $color2: #090909;
-$color3: #ffff56;
+$color3: #fff6ed;
 $color4: #ffff81;
 $color5: #333233;
 
@@ -95,7 +95,7 @@ body{
         p{
             margin: 10px;
             text-align: center;
-            color: $color1;
+            color: $color3;
             text-shadow: -0.5px -0.5px 0.5px #090909, 0.5px 0.5px 0.5px #090909, -0.5px 0.5px 0.5px #090909, 0.5px -0.5px 0.5px #090909;
         }
         .container-fluid div{

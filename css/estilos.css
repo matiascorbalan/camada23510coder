@@ -6,7 +6,7 @@
 }
 
 body {
-  color: #ffff56;
+  color: #fff6ed;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   background-color: #090909;
@@ -68,7 +68,7 @@ body main h2 {
 body main p {
   margin: 10px;
   text-align: center;
-  color: #ffff00;
+  color: #fff6ed;
   text-shadow: -0.5px -0.5px 0.5px #090909, 0.5px 0.5px 0.5px #090909, -0.5px 0.5px 0.5px #090909, 0.5px -0.5px 0.5px #090909;
 }
 body main .container-fluid div {
@@ -121,6 +121,4 @@ body main .parrafo {
 body .fab {
   font-size: 3em;
   color: #ffff00;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
