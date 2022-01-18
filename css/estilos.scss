@@ -5,7 +5,7 @@
 $color1: #ffff00;
 $color2: #090909;
 $color3: #fff6ed;
-$color4: #ffff81;
+$color4: #eaccad;
 $color5: #333233;
 
 $letragrande: 150px;
@@ -147,6 +147,11 @@ body{
         }
         .contacto{
             @extend .empresa;
+            button{
+                background-color: $color1;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }
         }
     }
     .fab{

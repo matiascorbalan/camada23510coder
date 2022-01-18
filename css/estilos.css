@@ -46,7 +46,7 @@ body header #opciones ul li :hover {
   transition: 2s;
 }
 body header #opciones ul li a {
-  color: #ffff81;
+  color: #eaccad;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
@@ -117,6 +117,11 @@ body main .servicios div ul {
 }
 body main .parrafo {
   text-align: center;
+}
+body main .contacto button {
+  background-color: #ffff00;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 body .fab {
   font-size: 3em;
